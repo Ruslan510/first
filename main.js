@@ -1,8 +1,8 @@
-var a = 10, b = 20, c = 30;
-if (c > b){
-c *=1000;
-}
-if (b > a){
-	b *=100;
-}
+var name = prompt('Каково название');
 
+if(name == 'ECMAScript'){
+	alert('Верно');
+}
+else{
+	alert('Не Верно');
+}
