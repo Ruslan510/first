@@ -1,8 +1,2 @@
-var name = prompt('Каково название');
-
-if(name == 'ECMAScript'){
-	alert('Верно');
-}
-else{
-	alert('Не Верно');
-}
+var a = 10, b = 20;
+a = a + b - (b = a);
